@@ -1,0 +1,17 @@
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.csproj.AssemblyReference.cache
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.csproj.SuggestedBindingRedirects.cache
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.EvaluacionProspecto.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.PantallaPrincipal.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.InicioSesion.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.VistaPromotor.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.AgregarPromotores.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.PantallaProspecto.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.ListadoProspecto.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.Properties.Resources.resources
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.csproj.GenerateResource.cache
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.csproj.CoreCompileInputs.cache
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\bin\Debug\CrudPromotores.exe.config
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\bin\Debug\CrudPromotores.exe
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\bin\Debug\CrudPromotores.pdb
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.exe
+C:\Users\carme\source\repos\CrudPromotores\CrudPromotores\obj\Debug\CrudPromotores.pdb

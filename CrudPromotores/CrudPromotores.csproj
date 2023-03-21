@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D81B9F2-0573-4754-B553-7F66E267A097}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CrudPromotores</RootNamespace>
+    <AssemblyName>CrudPromotores</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModeloM\Prospecto.cs" />
+    <Compile Include="Modelo\ClsPromotores.cs" />
+    <Compile Include="Modelo\ClsProspectos.cs" />
+    <Compile Include="Vista\EvaluacionProspecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\EvaluacionProspecto.Designer.cs">
+      <DependentUpon>EvaluacionProspecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\ConexionBD.cs" />
+    <Compile Include="Vista\PantallaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PantallaPrincipal.Designer.cs">
+      <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\InicioSesion.Designer.cs">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\VistaPromotor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\VistaPromotor.Designer.cs">
+      <DependentUpon>VistaPromotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\AgregarPromotores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\AgregarPromotores.Designer.cs">
+      <DependentUpon>AgregarPromotores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\PantallaProspecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PantallaProspecto.Designer.cs">
+      <DependentUpon>PantallaProspecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListadoProspecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\ListadoProspecto.Designer.cs">
+      <DependentUpon>ListadoProspecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Vista\EvaluacionProspecto.resx">
+      <DependentUpon>EvaluacionProspecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PantallaPrincipal.resx">
+      <DependentUpon>PantallaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\InicioSesion.resx">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\VistaPromotor.resx">
+      <DependentUpon>VistaPromotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\AgregarPromotores.resx">
+      <DependentUpon>AgregarPromotores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PantallaProspecto.resx">
+      <DependentUpon>PantallaProspecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\ListadoProspecto.resx">
+      <DependentUpon>ListadoProspecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
